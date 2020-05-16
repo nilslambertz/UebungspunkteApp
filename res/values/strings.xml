@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Übungspunkte</string>
+    <string name="hinzufuegen">Hinzufügen</string>
+    <string name="bestaetigen">Bestätigen</string>
+    <string name="fachHinzufuegen">Fach hinzufügen</string>
+    <string name="titel">Titel:</string>
+    <string name="benoetigteProzent">Benötigte Prozent:</string>
+</resources>

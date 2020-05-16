@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/textEingebenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zur Bestätigung folgende Zahl eingeben:"
+        android:textSize="23dp"
+        android:layout_below="@id/view" />
+
+    <TextView
+        android:id="@+id/zahlenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1111"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="50dp"
+        android:layout_below="@id/textEingebenView" />
+
+    <EditText
+        android:id="@+id/zahlenEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Hier Zahl eingeben"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:layout_below="@id/zahlenView" />
+
+
+
+</RelativeLayout>

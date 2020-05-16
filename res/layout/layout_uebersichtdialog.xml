@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/relativeLayout">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/anzahlUebungenStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anzahl der Übungen: "
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@id/view" />
+
+    <TextView
+        android:id="@+id/anzahlUebungen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="187"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/view"
+        android:layout_toRightOf="@id/anzahlUebungenStatic"/>
+
+
+    <TextView
+        android:id="@+id/anzahlPunkteStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erreichte Punkte: "
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_below="@id/anzahlUebungenStatic" />
+
+    <TextView
+        android:id="@+id/anzahlPunkte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="187"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/anzahlUebungenStatic"
+        android:layout_toRightOf="@id/anzahlPunkteStatic"/>
+
+    <TextView
+        android:id="@+id/anzahlMoeglichePunkteStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mögliche Punkte: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/anzahlPunkteStatic"/>
+
+    <TextView
+        android:id="@+id/moeglichePunkte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="187"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/anzahlPunkteStatic"
+        android:layout_toRightOf="@id/anzahlMoeglichePunkteStatic"/>
+
+    <TextView
+        android:id="@+id/anzahlProzentStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erreichte Prozent: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/anzahlMoeglichePunkteStatic"/>
+
+    <TextView
+        android:id="@+id/anzahlProzent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="187"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/anzahlMoeglichePunkteStatic"
+        android:layout_toRightOf="@id/anzahlProzentStatic"/>
+
+    <TextView
+        android:id="@+id/benoetigteProzentStatic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benötigte Prozent: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/anzahlProzentStatic"/>
+
+    <TextView
+        android:id="@+id/benoetigteProzent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="187"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/anzahlProzentStatic"
+        android:layout_toRightOf="@id/benoetigteProzentStatic"/>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/benoetigteProzentStatic"/>
+
+    <TextView
+        android:id="@+id/klausurzulassungStatic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Klausurzulassung"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/view2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayoutZulassung"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/klausurzulassungStatic">
+
+        <TextView
+            android:id="@+id/benoetigtePunkteMinus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bei x-2 Übung"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/benoetigtePunkteMinus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bei x-1 Übung"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/benoetigtePunkteMinus2"/>
+
+        <TextView
+            android:id="@+id/benoetigtePunkteMinus0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bei x-1 Übung"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/benoetigtePunkteMinus1"/>
+
+        <TextView
+            android:id="@+id/benoetigtePunktePlus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bei x-1 Übung"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/benoetigtePunkteMinus0"/>
+
+        <TextView
+            android:id="@+id/benoetigtePunktePlus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bei x-1 Übung"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/benoetigtePunktePlus1"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/disclaimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(mit x erreichbaren Punkten in jeder Übung)"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/linearLayoutZulassung"/>
+
+
+</RelativeLayout>

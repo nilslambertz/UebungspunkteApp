@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/uebungProzentCheck"
+        android:checkable="true"
+        android:title="Klick auf Übung zeigt % an" />
+    <item
+        android:id="@+id/uebungEmojiCheck"
+        android:checkable="true"
+        android:title="Emojis aktivieren" />
+    <item android:id="@+id/clearItem"
+    android:title="Alle Fächer löschen"></item>
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/alterNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alter Name: "
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@id/view" />
+
+    <TextView
+        android:id="@+id/neuerNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neuer Name: "
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@id/alterNameView" />
+
+    <EditText
+        android:id="@+id/neuerNameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/neuerNameView" />
+
+    <TextView
+        android:id="@+id/alteProzentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alte Prozent: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/neuerNameEdit"/>
+
+    <TextView
+        android:id="@+id/neueProzentView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neue Prozent: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/alteProzentView"/>
+
+    <EditText
+        android:id="@+id/neueProzentEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/neueProzentView" />
+
+    <TextView
+        android:id="@+id/alteVorrUebungenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alte vorr. Übungen: "
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/neueProzentEdit"/>
+
+    <TextView
+        android:id="@+id/neueVorrUebungenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Neue vorr. Übungen: "
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/alteVorrUebungenView"/>
+
+    <EditText
+        android:id="@+id/neueVorrUebungenEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/neueVorrUebungenView" />
+
+
+</RelativeLayout>

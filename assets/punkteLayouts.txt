@@ -1,0 +1,121 @@
+<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rundeecken"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/textView187"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Üb. 1"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="15"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="/"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="15"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Ändern" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rundeecken"
+                android:gravity="center_vertical"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/textView131231"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Üb. 1"
+                    android:textSize="30dp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@android:color/darker_gray" />
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/textView3123123"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="/"
+                    android:textSize="30dp" />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:color/darker_gray" />
+
+                <Button
+                    android:id="@+id/button213"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Ändern" />
+            </LinearLayout>
