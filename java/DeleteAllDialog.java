@@ -1,4 +1,5 @@
 package com.example.uebungspunkte;
+
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -9,7 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
-import com.example.uebungspunkte.R;
 
 public class DeleteAllDialog extends AppCompatDialogFragment {
     private TextView zahlenView;

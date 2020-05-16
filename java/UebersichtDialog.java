@@ -1,4 +1,6 @@
 package com.example.uebungspunkte;
+
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -12,11 +14,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatDialogFragment;
 import androidx.core.text.HtmlCompat;
-import com.example.uebungspunkte.R;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-
 
 public class UebersichtDialog extends AppCompatDialogFragment {
 

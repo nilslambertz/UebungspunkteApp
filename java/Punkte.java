@@ -1,4 +1,5 @@
 package com.example.uebungspunkte;
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
@@ -11,7 +12,6 @@ import android.view.*;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.uebungspunkte.R;
 
 public class Punkte extends AppCompatActivity {
     private String titel;

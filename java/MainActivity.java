@@ -1,4 +1,5 @@
 package com.example.uebungspunkte;
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
@@ -12,7 +13,6 @@ import android.widget.*;
 import android.graphics.Color;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.uebungspunkte.R;
 
 public class MainActivity extends AppCompatActivity {
 

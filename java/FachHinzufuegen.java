@@ -1,4 +1,5 @@
 package com.example.uebungspunkte;
+
 import android.os.Handler;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -8,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.example.uebungspunkte.R;
 
 public class FachHinzufuegen extends AppCompatActivity {
     private EditText addFachTitel;
