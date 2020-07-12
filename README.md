@@ -3,11 +3,11 @@ App to keep track of collected points from exercises. In some classes you need t
 
 
 ## Overview of all courses:
-![093c9ed0e8ee21a7d0c4e56db7653d85](https://user-images.githubusercontent.com/62618726/87256512-9fe45780-c493-11ea-9bad-ece26f36bee7.png)
+![ff6b4946ad1ad90d6796eb069d3dc063](https://user-images.githubusercontent.com/62618726/87256532-d91cc780-c493-11ea-8add-3ef508cff002.png)
 
 
 ## Overview of reached points in one course:
-![ff6b4946ad1ad90d6796eb069d3dc063](https://user-images.githubusercontent.com/62618726/87256532-d91cc780-c493-11ea-8add-3ef508cff002.png)
+![093c9ed0e8ee21a7d0c4e56db7653d85](https://user-images.githubusercontent.com/62618726/87256512-9fe45780-c493-11ea-9bad-ece26f36bee7.png)
 
 
 ## Analysation of the current course:
